@@ -13,7 +13,7 @@ int main() {
 
     char tecla_pressionada = 'A';
     int inteiro = 10;
-    float decimal = 5.2f; // ate 6 casas decimais
+    float decimal = 5.2f; // ate 6 casas decimais tem que colocar o "f" no final
     double duplo = 5.2; // ate 12 casas decimais
 
     printf("=============================\n");
