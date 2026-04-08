@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double duplo = 3.1415926;
-    float decimal = 3.14f;
 
+    printf("%.7f\n", 3.1415926);
+    printf("%.2f\n", 3.1415926);
+    
     return 0;
 }
