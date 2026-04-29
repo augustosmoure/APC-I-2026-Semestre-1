@@ -1,5 +1,5 @@
 services:
-  mapp:
+  app:
     image: gcc
     working_dir: /app
     volumes:
