@@ -9,7 +9,7 @@ int main() {
     scanf("%c", &tecla_pressionada);
     while(getchar() != '\n'); //limpar o buffer
 
-    printf("Você pressionou a tecla %c\n", tecla_pressionada);
+    printf("Voce pressionou a tecla %c\n", tecla_pressionada);
 
     int idade;
 
@@ -20,7 +20,7 @@ int main() {
     printf("Voce tem %i anos \n", idade);
 
     float preco;
-    printf("Informe  preco da passagem: ");
+    printf("Informe o preco da passagem: ");
     scanf("%f", &preco);
     while(getchar() != '\n');
 
