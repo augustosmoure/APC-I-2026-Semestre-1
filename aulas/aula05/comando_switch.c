@@ -4,6 +4,7 @@ int main () {
     int nota = 0;
     printf("Entre com uma nota de 1 a 5: ");
     scanf ("%i", &nota);
+    while(getchar() != '\n');
 
     /* if (nota == 1) {
         printf("Ganhou uma estrela *\n");
