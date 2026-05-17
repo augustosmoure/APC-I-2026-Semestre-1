@@ -24,7 +24,5 @@ int main() {
 
     } while (opcao != 5);
 
-    printf("Obrigado pelo contao! Ate logo.\n");
-
     return 0;
 }
