@@ -9,9 +9,9 @@ int main () {
     while(getchar() != '\n');
 
     if (numero % 2 == 0) {
-       printf("Esse numero eh par: %i! \n ");
+       printf("Esse numero eh par! \n ");
     } else {
-        printf("Esse numero eh impar: %i! \n ");
+        printf("Esse numero eh impar! \n ");
     }
 
 
