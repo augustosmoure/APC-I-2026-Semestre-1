@@ -13,15 +13,22 @@ int main() {
 
         soma = soma + num[i];
     }
-    printf("Numeros Digitados: \n");
+    printf("\nNumeros Digitados: \n");
         for(int i = 0; i < n; i++) {
             printf("%i, ", num[i]);
         }
     printf("\n");
 
+    int soma_acumulada = 0;
     for(int i=0; i < n; i++) {
-       printf("%i + %i = %i\n", n, num[i], n + num[i]);
+        int soma_anterior = soma_acumulada;
+        soma_acumulada += num[i];
+       printf("%i + %i = %i\n", soma_anterior, num[i], soma_acumulada);
         }
+
+        float media = (float)soma / n;
+        printf("Soma total: %i\n", soma);
+        printf("Media aritmetica: %.2f\n", media);
 
     return 0;
 }
