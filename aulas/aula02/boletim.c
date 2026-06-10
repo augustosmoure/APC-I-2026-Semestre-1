@@ -44,7 +44,7 @@ int main() {
     nota_a3 = 8.0f;
     media_final = 6.5f;
 
-    printf("%05i      docker compos  %5.1f  %5.1f  %5.1f  %5.1f\n", codigo_disciplina, nota_a1, nota_a2, nota_a3, media_final);
+    printf("%05i       %5.1f  %5.1f  %5.1f  %5.1f\n", codigo_disciplina, nota_a1, nota_a2, nota_a3, media_final);
 
     codigo_disciplina = 91;
     nota_a1 = 5.0f;
